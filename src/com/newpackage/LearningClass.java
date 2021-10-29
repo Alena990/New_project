@@ -41,6 +41,7 @@ public class LearningClass {
 
 
         }
+        System.out.println("Программа завершена");
 
 
 
