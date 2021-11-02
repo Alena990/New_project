@@ -14,8 +14,8 @@ public class Main {
 
     public static double calc(double a, double b, char operator) {
 
-        a = a + 23233;
-        a = a + 4445;
+        a = a + 9;
+        a = a + 8;
         System.out.println(a);
         return a;
     }
