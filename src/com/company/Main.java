@@ -20,18 +20,6 @@ public class Main {
         return a;
     }
 
-//        if (operator == '+') {
-//            return a + b;
-//        }
-//        else if (operator == '-'){
-//            return a - b;
-//        }
-//        else if (operator == '*'){
-//            return a * b;
-//        }
-//        else{
-//            return a / b;
-//        }
     }
 
 
