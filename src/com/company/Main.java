@@ -1,25 +1,28 @@
 package com.company;
 
+import com.newpackage.Animal;
+import com.newpackage.Cat;
+import com.newpackage.Dog;
+import com.newpackage.Fish;
+import com.other.Human;
+
 public class Main {
-
     public static void main(String[] args) {
-        System.out.println("Hello world");
-        int a = 6;
-        int b = 4;
+        Human human = new Human("Лёва");
+        Cat cat = new Cat("Мия", 5);
+        Dog dog = new Dog("Кексик", 16);
+        Fish fish = new Fish("Немо", 1);
+        Animal[] animals = new Animal[5];
+        animals[0] = cat;
+        animals[1] = dog;
+        animals[2] = fish;
 
-        System.out.println(calc(a, b, 'k'));
-        System.out.println(a);
+        human.setAnimal(animals);
 
+        for (Animal animal : human.getAnimal()) {
+            System.out.println(animal);
+        }
     }
-
-    public static double calc(double a, double b, char operator) {
-
-        a = a + 9;
-        a = a + 8;
-        System.out.println(a);
-        return a;
-    }
-
-    }
+}
 
 
