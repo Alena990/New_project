@@ -16,6 +16,6 @@ public class Test {
         int num2 = Integer.parseInt(reader.readLine());
 
         System.out.println(name + " будет получать " + num1 + " через " + num2 + " лет. ");
-
+        System.out.println();
     }
 }
