@@ -17,5 +17,6 @@ public class Test {
 
         System.out.println(name + " будет получать " + num1 + " через " + num2 + " лет. ");
         System.out.println();
+        System.out.println("комментарий");
     }
 }
